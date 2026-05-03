@@ -5,7 +5,7 @@ class pattern8{
         int n=s.nextInt();
         for(int i=0;i<n;i++){
             for(int j=1;j<n-i+1;j++){
-                System.out.print(n-j+1);
+                System.out.print(n-j+1+" ");
             }
             System.out.println();
         }
