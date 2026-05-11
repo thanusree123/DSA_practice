@@ -62,7 +62,7 @@ class chocolate{
             int max=maxheap.poll();
             int root=(int)Math.sqrt(max);
             int remaining=root*root;
-            maxheap.add(remaining);
+            maxheap.add(remaining+" ");
         }
         int sum=0;
         for(int x:maxheap){

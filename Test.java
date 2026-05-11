@@ -73,6 +73,6 @@ class Test{
                 freq[cch-'0']--;
             }
         }
-        System.out.println(a+"A"+ b+"B");
+        System.out.println(a+"A "+ b+"B ");
     }
 }

@@ -37,7 +37,7 @@ class string1
              count++;
          }
          }
-         System.out.print(count);
+         System.out.print(count+" ");
     }
 }
 
