@@ -42,7 +42,45 @@
 # terms=8
 # for i in range(terms):
 #     print(fibonacci(i),end=" ")
+# def smallest(n):
+#     if n<10:
+#         return n
 
+#     current = n % 10
+#     previous = smallest(n // 10)
+
+#     if current < previous:
+#         return current
+#     else:
+#         return previous
+
+
+# print(smallest(58321))
+
+
+# def count(n,target):
+#     if n<10:
+#         return n
+#     current=n%10
+#     remaining=n//10
+#     if current==target:
+#        return 1+count(remaining,target)
+#     else:
+#         return count(remaining,target)
+# print(count(12233,3))
+
+# def product(n):
+#     if n<10:
+#         return n
+#     current=n%10
+#     return current*product(n//10)
+# print(product(1234))
+
+# def gcd(a,b):
+#     if b==0:
+#         return a
+#     return gcd(b,a%b)
+# print(gcd(48,18))
 
 
 
