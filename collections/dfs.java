@@ -26,6 +26,6 @@ class dfs{
         boolean visited[]=new boolean[n];
         System.out.print("dfs traversal");
         dfss(0,visited,graph);
-
+s.close();
     }
 }

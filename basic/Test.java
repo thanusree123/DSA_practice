@@ -50,29 +50,29 @@
 // ------------
 // The 1st 1 in Suresh guess is an Apple, the 2nd or 3rd 1 is B.
 
-import java.util.*;
-class Test{
-    public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        String s[]=sc.nextLine().split(" ");
-        String sec=s[0];
-        String guess=s[1];
-        int n=sec.length();
-        int a=0,b=0;
-        int freq[]= new int[10];
-        for(int i=0;i<n;i++){
-            char ch=sec.charAt(i);
-            char cch=guess.charAt(i);
-            if(ch==cch){
-                a++;
-            }
-            else{
-                if(freq[ch-'0']<0)b++;
-                if(freq[cch-'0']>0)b++;
-                freq[ch-'0']++;
-                freq[cch-'0']--;
-            }
-        }
-        System.out.println(a+"A "+ b+"B ");
-    }
-}
+// import java.util.*;
+// class Test{
+//     public static void main(String args[]){
+//         Scanner sc=new Scanner(System.in);
+//         String s[]=sc.nextLine().split(" ");
+//         String sec=s[0];
+//         String guess=s[1];
+//         int n=sec.length();
+//         int a=0,b=0;
+//         int freq[]= new int[10];
+//         for(int i=0;i<n;i++){
+//             char ch=sec.charAt(i);
+//             char cch=guess.charAt(i);
+//             if(ch==cch){
+//                 a++;
+//             }
+//             else{
+//                 if(freq[ch-'0']<0)b++;
+//                 if(freq[cch-'0']>0)b++;
+//                 freq[ch-'0']++;
+//                 freq[cch-'0']--;
+//             }
+//         }
+//         System.out.println(a+"A "+ b+"B ");
+//     }
+// }

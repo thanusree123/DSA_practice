@@ -62,5 +62,6 @@ class bfs {
         System.out.print("BFS Traversal: ");
 
         bfss(0, visited, graph);
+        sc.close();
     }
 }

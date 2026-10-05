@@ -40,5 +40,6 @@ public class invertTree {
         root.right.right = new TreeNode(s.nextInt());
         invert(root);
         display(root);
+        s.close();
     }
 }

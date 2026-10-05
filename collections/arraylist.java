@@ -8,5 +8,6 @@ class arraylist{
         list.add(30);
         list.add(40);
         System.out.print(list);
+        s.close();
     }
 }
