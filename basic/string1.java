@@ -21,24 +21,24 @@
 // ‘d’ is between 4 and 5 
 // Hence total wrapped = 4
 
-import java.util.*;
-class string1
-{
-    public static void main(String args[])
-    {
-        Scanner s =new Scanner(System.in);
-        String str=s.nextLine();
-        int count=0;
-        for(int i=1;i<str.length()-1;i++){
-        char c=str.charAt(i);
-        char l=str.charAt(i-1);
-        char r=str.charAt(i+1);
-        if(Character.isLetter(c) && Character.isDigit(l) && Character.isDigit(r)){
-             count++;
-         }
-         }
-         System.out.print(count+" ");
-    }
-}
+// import java.util.*;
+// class string1
+// {
+//     public static void main(String args[])
+//     {
+//         Scanner s =new Scanner(System.in);
+//         String str=s.nextLine();
+//         int count=0;
+//         for(int i=1;i<str.length()-1;i++){
+//         char c=str.charAt(i);
+//         char l=str.charAt(i-1);
+//         char r=str.charAt(i+1);
+//         if(Character.isLetter(c) && Character.isDigit(l) && Character.isDigit(r)){
+//              count++;
+//          }
+//          }
+//          System.out.print(count+" ");
+//     }
+// }
 
 
