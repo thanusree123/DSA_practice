@@ -16,6 +16,7 @@ public class evenarraylist {
             }
         }
         System.out.print(count);
+        s.close();
 
     }
     
