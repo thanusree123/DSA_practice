@@ -38,6 +38,7 @@ class linkedlist_cycle{
         }
         boolean  ans =cycle(head);
         System.out.print(ans);
+        s.close();
     }
 
 }

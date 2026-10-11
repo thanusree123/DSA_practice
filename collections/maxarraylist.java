@@ -16,6 +16,7 @@ public class maxarraylist{
                 }
             }
             System.out.print(max); 
+            s.close();
         
     }
 }

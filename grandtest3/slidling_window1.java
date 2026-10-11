@@ -1,4 +1,4 @@
-import java.util.*;
+
 class slidling_window1{
     public static void main(String args[]){
         int arr[]={12,2,3,4,4,5,};

@@ -10,7 +10,7 @@ public class maxdepth{
         this.left=null;
     }
 }
-public static int maxdepth(Node root){
+public static int maxdepth1(Node root){
     if(root==null) return 0;
 Queue<Node>q =new LinkedList<>();
 q.add(root);
@@ -37,7 +37,7 @@ return depth;
         root.right=new Node(15);
         root.left.left=new Node(2);
         root.left.right=new Node(7);
-        int depth=maxdepth(root);
+        int depth=maxdepth1(root);
         System.out.print(depth);
     
 

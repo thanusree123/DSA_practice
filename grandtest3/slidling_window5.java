@@ -1,4 +1,4 @@
-import java.util.*;
+
 class slidling_window5 {
     public  static int longestOnes(int[] nums, int k) {
         // Safety guard for empty arrays

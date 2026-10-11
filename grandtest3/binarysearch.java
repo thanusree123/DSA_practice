@@ -1,6 +1,6 @@
-import java.util.*;
+
 class binarysearch{
-    public static int binarysearch(int arr[],int target){
+    public static int binarysearch1(int arr[],int target){
         int low=0;
         int high=arr.length-1;
         while(low<=high){
@@ -20,7 +20,7 @@ class binarysearch{
     public static void main(String args[]){
         int arr[]={1,2,3,4,5,7,8,9};
         int target=6;
-        int result=binarysearch(arr,target);
+        int result=binarysearch1(arr,target);
         if(result!=-1){
             System.out.print("element "+result);
         }

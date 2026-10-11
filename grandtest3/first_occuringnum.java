@@ -1,4 +1,4 @@
-import java.util.*;
+
 class first_occuringnum{
     public static int binarysearch(int arr[],int target){
         int low=0;

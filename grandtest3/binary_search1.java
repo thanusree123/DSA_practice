@@ -1,4 +1,4 @@
-import java.util.*;
+
 class binary_search1{
     public static void main(String args[]){
         int arr[]={2,4,5,6,7,8,9,10};
