@@ -18,6 +18,7 @@ public class add_od_cols {
             }
             System.out.println(sum+" "+(j+1));
         }
+        s.close();
     }
     
 }
