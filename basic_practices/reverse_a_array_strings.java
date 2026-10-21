@@ -18,6 +18,7 @@ public class reverse_a_array_strings {
         right--;
       }
       System.out.print(Arrays.toString(ch));
+      s.close();
     }
     
 }
