@@ -1,5 +1,4 @@
 package basic_practices;
-import java.util.*;
 public class reverse_words_string {
     public static void main(String args[]){
         String s="  hello world  ";
